@@ -10,7 +10,7 @@ function Hero() {
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
               <h1 className="mb-5 text-5xl font-bold">
-                OUR DANCE TEACHERS COACH THEIR STUDENTS IN ALL TYPES OF DANCE
+                ORIANA THEIR STUDENTS IN ALL TYPES OF DANCE
               </h1>
               <p className="mb-5">PUT YOUR DANCING SHOES AND LETS MOVE</p>
               <p className="mb-5">
