@@ -1,7 +1,7 @@
 import "./App.css";
 import AboutUs from "./Components/AboutUs";
 // import Card from "./Components/Cards";
-import ContactForm from "./Components/ContactForm";
+import ContactForm from "./Components/Form2";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 // import Slider from "./Components/Slider";
@@ -15,7 +15,7 @@ function App() {
       <Hero />
       {/* <Slider /> */}
       <AboutUs />
-      {/* <ContactForm /> */}
+      <ContactForm />
     </>
   );
 }

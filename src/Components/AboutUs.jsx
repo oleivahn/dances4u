@@ -7,7 +7,7 @@ import dance6 from "../assets/images/dance6.jpg";
 
 function AboutUs() {
   return (
-    <div id="aboutUs" className="p-20">
+    <div id="aboutUs" className="p-5 md:p-20">
       <h1 className="text-5xl font-bold">About Us</h1>
       <p className="text-3xl font-bold pt-10">
         Our dance teachers coach their students in all types of dance.
