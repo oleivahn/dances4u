@@ -1,6 +1,9 @@
 const ContactForm = () => {
   return (
-    <section className="relative z-40 overflow-hidden px-5 py-20 lg:py-[120px]">
+    <section
+      id="contactUs"
+      className="relative z-40 overflow-hidden px-5 py-20 lg:py-[120px]"
+    >
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">

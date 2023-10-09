@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 import logo from "../assets/images/logo.png";
 import ThemeBar from "./Themebar";
 
@@ -13,10 +15,26 @@ function Navbar() {
         <ul className="menu menu-horizontal px-1">
           <ThemeBar />
           <li>
-            <a>About Us</a>
+            <Link
+              to="aboutUs"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              About Us
+            </Link>
           </li>
           <li>
-            <a>Contact Us</a>
+            <Link
+              to="contactUs"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Contact Us
+            </Link>
           </li>
         </ul>
       </div>
