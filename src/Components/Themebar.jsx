@@ -15,7 +15,7 @@ const ThemeBar = () => {
   // Return the JSX element
   return (
     <div id="theme-bar">
-      <label className="swap swap-rotate mt-1 mx-2">
+      <label className="swap swap-rotate mt-1 ml-2 md:mr-7">
         {/* this hidden checkbox controls the state */}
         <input
           type="checkbox"

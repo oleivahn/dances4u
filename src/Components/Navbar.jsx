@@ -6,7 +6,7 @@ import ThemeBar from "./Themebar";
 function Navbar() {
   return (
     <div className="navbar bg-base-100 sticky top-0 z-50">
-      <div className="flex-1">
+      <div className="flex-1 ml-4">
         <Link
           to="hero"
           className="btn btn-ghost"
