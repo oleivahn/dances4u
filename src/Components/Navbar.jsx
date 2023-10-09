@@ -24,7 +24,7 @@ function Navbar() {
               to="aboutUs"
               // spy={true}
               smooth={true}
-              offset={0}
+              offset={-50}
               duration={1000}
             >
               About Us
