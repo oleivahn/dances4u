@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const ThemeBar = () => {
-  const [themeColor, setThemeColor] = useState(true);
+  const [themeColor, setThemeColor] = useState(false);
 
   // Tailwind dark mode
   useEffect(() => {
