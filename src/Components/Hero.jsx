@@ -4,7 +4,10 @@ import backgroundVideo from "../assets/images/backgroundVideo.mp4";
 function Hero() {
   return (
     <>
-      <header className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
+      <header
+        id="hero"
+        className="relative flex items-center justify-center h-screen mb-12 overflow-hidden"
+      >
         <div className="relative z-30 p-5 text-2xl rounded-xl">
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-center text-neutral-content">

@@ -5,11 +5,17 @@ import ThemeBar from "./Themebar";
 
 function Navbar() {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 sticky top-0 z-50">
       <div className="flex-1">
-        <a className="btn btn-ghost">
+        <Link
+          to="hero"
+          className="btn btn-ghost"
+          smooth={true}
+          offset={0}
+          duration={1000}
+        >
           <img src={logo} alt="logo" className="object-fill h-10" />
-        </a>
+        </Link>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
