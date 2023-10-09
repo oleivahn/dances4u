@@ -1,4 +1,5 @@
 import logo from "../assets/images/logo.png";
+import ThemeBar from "./Themebar";
 
 function Navbar() {
   return (
@@ -10,9 +11,7 @@ function Navbar() {
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
-          <li href="#aboutUs">
-            <a>Home</a>
-          </li>
+          <ThemeBar />
           <li>
             <a>About Us</a>
           </li>

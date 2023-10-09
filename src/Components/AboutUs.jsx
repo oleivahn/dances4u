@@ -9,6 +9,7 @@ function AboutUs() {
   return (
     <div id="aboutUs" className="p-5 md:p-20">
       <h1 className="text-5xl font-bold">About Us</h1>
+      <button className="btn btn-primary">TEST BUTTON</button>
       <p className="text-3xl font-bold pt-10">
         Our dance teachers coach their students in all types of dance.
       </p>

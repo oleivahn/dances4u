@@ -5,7 +5,7 @@ import ContactForm from "./Components/Form2";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 // import Slider from "./Components/Slider";
-import HomePage from "./pages/HomePage";
+// import HomePage from "./pages/HomePage";
 
 function App() {
   return (
