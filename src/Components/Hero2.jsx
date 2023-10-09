@@ -43,7 +43,7 @@ const Hero = () => {
               <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-70"></div>
               {/* Video text */}
               <div className="relative z-10 bg-dark bg-opacity-90 px-8 py-20 md:py-[120px] ">
-                <div className="mx-auto max-w-[500px] text-center pt-[3%]">
+                <div className="mx-auto max-w-[500px] text-center pt-[2%]">
                   <h2 className="mb-4 text-3xl font-bold text-white sm:text-4xl md:text-[40px]">
                     OUR DANCE TEACHERS COACH THEIR STUDENTS IN ALL TYPES OF
                     DANCE
