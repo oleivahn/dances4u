@@ -18,7 +18,7 @@ function Navbar() {
               to="aboutUs"
               // spy={true}
               smooth={true}
-              offset={-50}
+              offset={0}
               duration={1000}
             >
               About Us
@@ -29,7 +29,7 @@ function Navbar() {
               to="contactUs"
               // spy={true}
               smooth={true}
-              offset={50}
+              offset={10}
               duration={1000}
             >
               Contact Us
