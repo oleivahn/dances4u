@@ -17,10 +17,10 @@ function Navbar() {
           <li>
             <Link
               to="aboutUs"
-              spy={true}
+              // spy={true}
               smooth={true}
               offset={50}
-              duration={500}
+              duration={1000}
             >
               About Us
             </Link>
@@ -28,10 +28,10 @@ function Navbar() {
           <li>
             <Link
               to="contactUs"
-              spy={true}
+              // spy={true}
               smooth={true}
               offset={50}
-              duration={500}
+              duration={1000}
             >
               Contact Us
             </Link>
