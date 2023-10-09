@@ -35,7 +35,7 @@ function Navbar() {
               to="contactUs"
               // spy={true}
               smooth={true}
-              offset={-10}
+              offset={-30}
               duration={1000}
             >
               Contact Us
