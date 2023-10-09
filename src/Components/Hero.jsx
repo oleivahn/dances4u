@@ -11,8 +11,8 @@ function Hero() {
         <div className="relative z-30 p-5 text-2xl rounded-xl">
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-center text-neutral-content">
-            <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">
+            <div className="max-w-[80%]">
+              <h1 className="mb-5 text-5xl font-bold text-white">
                 OUR DANCE TEACHERS COACH THEIR STUDENTS IN ALL TYPES OF DANCE
               </h1>
               <p className="mb-5">PUT YOUR DANCING SHOES AND LETS MOVE</p>

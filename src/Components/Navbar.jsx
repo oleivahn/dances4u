@@ -5,7 +5,8 @@ import ThemeBar from "./Themebar";
 
 function Navbar() {
   return (
-    <div className="navbar bg-base-100 sticky top-0 z-50">
+    <div className="navbar bg-base-100 sticky top-0 z-50 bg-gradient-to-r from-indigo-600 via-purple-500 to-pink-500 text-white">
+      {/* <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-70"></div> */}
       <div className="flex-1 ml-4">
         <Link
           to="hero"

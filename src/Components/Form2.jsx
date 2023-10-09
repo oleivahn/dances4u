@@ -11,8 +11,12 @@ const ContactForm = () => {
               <h2 className="text-dark mb-6 text-[32px] font-bold leading-tight sm:text-[42px] md:pr-5">
                 Let’s chat.
                 <br />
-                Tell us about your project.
               </h2>
+              <p className="py-6 text-body-color mb-8 text-lg">
+                You’ll usually need: 2 to 3 A levels, or equivalent, for a
+                degree to pass an audition Or do you want more information? We
+                will contact you as son as possible to start the classes
+              </p>
               <p className="text-body-color mb-8 text-base font-medium">
                 CONTACT US
               </p>
@@ -36,7 +40,7 @@ const ContactForm = () => {
                     Mail us at
                   </span>
                   <a href="/#" className="text-primary text-base font-semibold">
-                    contact@tailgrids.com
+                    general@dances4u.com
                   </a>
                 </div>
               </div>
