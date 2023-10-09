@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const ThemeBar = () => {
-  const [themeColor, setThemeColor] = useState(false);
+  const [themeColor, setThemeColor] = useState(true);
 
   // Tailwind dark mode
   useEffect(() => {
@@ -15,7 +15,7 @@ const ThemeBar = () => {
   // Return the JSX element
   return (
     <div id="theme-bar">
-      <label className="swap swap-rotate mt-1 mr-3">
+      <label className="swap swap-rotate mt-1 ml-3">
         {/* this hidden checkbox controls the state */}
         <input
           type="checkbox"

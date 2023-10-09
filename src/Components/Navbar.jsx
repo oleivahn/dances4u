@@ -13,13 +13,12 @@ function Navbar() {
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
-          <ThemeBar />
           <li>
             <Link
               to="aboutUs"
               // spy={true}
               smooth={true}
-              offset={50}
+              offset={-50}
               duration={1000}
             >
               About Us
@@ -36,6 +35,7 @@ function Navbar() {
               Contact Us
             </Link>
           </li>
+          <ThemeBar />
         </ul>
       </div>
     </div>
