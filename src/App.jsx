@@ -12,11 +12,11 @@ import Navbar from "./Components/Navbar";
 function App() {
   return (
     <>
-      <div className="flex flex-col h-screen">
-        {/* <HomePage /> */}
-        <Navbar />
-        <Hero className="flex-1" />
-      </div>
+      {/* <div className="md:flex md:flex-col md:h-screen"> */}
+      {/* <HomePage /> */}
+      <Navbar />
+      <Hero className="md:flex-1" />
+      {/* </div> */}
       <AboutUs />
       <ContactForm />
       {/* <Slider /> */}
