@@ -5,7 +5,7 @@ function Hero() {
     <>
       <header
         id="hero"
-        className="relative flex items-center justify-center h-[700px] md:h-screen overflow-hidden"
+        className="relative flex items-center justify-center h-[650px] md:h-screen overflow-hidden"
       >
         <div className="relative z-30 md:p-5 text-2xl rounded-xl">
           {/* <div className="hero-overlay bg-opacity-60"></div> */}
