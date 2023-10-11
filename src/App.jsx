@@ -1,7 +1,8 @@
 import "./App.css";
 import AboutUs from "./Components/AboutUs";
 // import Card from "./Components/Cards";
-import ContactForm from "./Components/Form2";
+// import ContactForm from "./Components/ContactForm";
+import ContactForm from "./Components/ContactForm2";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 // import Slider from "./Components/Slider";
@@ -10,12 +11,14 @@ import Navbar from "./Components/Navbar";
 function App() {
   return (
     <>
-      {/* <HomePage /> */}
-      <Navbar />
-      <Hero />
-      {/* <Slider /> */}
+      <div className="flex flex-col h-screen">
+        {/* <HomePage /> */}
+        <Navbar />
+        <Hero className="flex-grow" />
+      </div>
       <AboutUs />
       <ContactForm />
+      {/* <Slider /> */}
     </>
   );
 }
