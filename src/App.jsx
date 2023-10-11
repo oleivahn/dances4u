@@ -14,7 +14,7 @@ function App() {
       <div className="flex flex-col h-screen">
         {/* <HomePage /> */}
         <Navbar />
-        <Hero className="flex-grow" />
+        <Hero className="flex-1" />
       </div>
       <AboutUs />
       <ContactForm />

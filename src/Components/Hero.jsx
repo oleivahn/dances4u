@@ -1,4 +1,3 @@
-import React from "react";
 import backgroundVideo from "../assets/images/backgroundVideo.mp4";
 
 function Hero() {
@@ -6,7 +5,7 @@ function Hero() {
     <>
       <header
         id="hero"
-        className="relative flex items-center justify-center h-screen mb-12 overflow-hidden"
+        className="relative flex items-center justify-center h-screen overflow-hidden"
       >
         <div className="relative z-30 p-5 text-2xl rounded-xl">
           <div className="hero-overlay bg-opacity-60"></div>
