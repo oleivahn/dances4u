@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 // Handler hook for when Outside click dropdown close
 let useClickOutside = (handler) => {
@@ -28,21 +28,24 @@ const Hero = () => {
   });
 
   return (
-    <section id="hero" className=" py-10 lg:py-[20px] h-screen">
-      <div ref={domNode} className="container mx-auto">
-        <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4">
-            <div className="relative z-10 overflow-hidden h-screen">
+    <header
+      id="hero"
+      className="relative items-center justify-center overflow-hidden"
+    >
+      <div ref={domNode} className=" mx-auto">
+        <div className=" flex flex-wrap">
+          <div className="w-full">
+            <div className="relative z-10 overflow-hidden">
               {/* Image thumbnail */}
               <img
                 src="https://cdn.tailgrids.com/2.0/image/marketing/images/videos/image-03.jpg"
                 alt="image"
-                className="absolute top-0 left-0 z-[-1] h-full w-full object-cover object-center"
+                className="absolute top-0 left-0 z-[-1] h-screen w-full object-cover object-center"
               />
               {/* Color mask */}
-              <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-70"></div>
+              <div className="absolute bottom-0 left-0 right-0 top-0 w-full overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-70"></div>
               {/* Video text */}
-              <div className="relative z-10 bg-dark bg-opacity-90 px-8 py-20 md:py-[120px] ">
+              <div className="relative z-10 bg-dark bg-opacity-90 h-screen px-8 py-20 md:py-[120px] ">
                 <div className="mx-auto max-w-[500px] text-center pt-[2%]">
                   <h2 className="mb-4 text-3xl font-bold text-white sm:text-4xl md:text-[40px]">
                     OUR DANCE TEACHERS COACH THEIR STUDENTS IN ALL TYPES OF
@@ -56,6 +59,7 @@ const Hero = () => {
                     “Dances 4 U has the best dancers that will teach you how to
                     dance like a pro!” Cindy G. – 09/21/2019
                   </p>
+                  {/* play button */}
                   <button
                     onClick={() => setVideoOpen(true)}
                     className="z-20 mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-white text-primary md:h-[100px] md:w-[100px]"
@@ -169,7 +173,7 @@ const Hero = () => {
           </button>
         </div>
       )}
-    </section>
+    </header>
   );
 };
 
